@@ -61,3 +61,13 @@ Not to sell you an ideology. Not to tell you what to think. But to remind you wh
 I'm a Gen X guy from Vancouver. I play trumpet. I build systems. And I believe sovereignty isn't a political position. It's a birthright.
 
 Watch on TikTok: [truefreedomsovereignty](https://www.tiktok.com/@truefreedomsovereignty/video/7617411845778935058)
+
+---
+
+**If this resonated with you — this book changed how I see everything:**
+
+[Get it here →](https://amzn.to/47Vjfnc)
+
+---
+
+*Follow the movement: [@truefreedomsovereignty](https://www.tiktok.com/@truefreedomsovereignty) · [All Links](https://linktr.ee/truefreedomsovereignty)*
