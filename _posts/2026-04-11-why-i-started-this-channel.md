@@ -64,10 +64,10 @@ Watch on TikTok: [truefreedomsovereignty](https://www.tiktok.com/@truefreedomsov
 
 ---
 
-**If this resonated with you — this book changed how I see everything:**
+**The book that changed how I see Canada, freedom, and sovereignty:**
 
-[Get it here →](https://amzn.to/47Vjfnc)
+**True Freedom and Sovereignty For Canadians** by Lisa GrübernnThis book exposes the hidden power structures behind Canada's formation and the systems that have conditioned generations to comply rather than thrive. If you felt something was wrong with the system — this is your wake-up call.nn[Get the Book on Amazon →](https://amzn.to/4msTJMj)
 
 ---
 
-*Follow the movement: [@truefreedomsovereignty](https://www.tiktok.com/@truefreedomsovereignty) · [All Links](https://linktr.ee/truefreedomsovereignty)*
+*Follow the movement: [Rumble](https://rumble.com/user/thewildchildwonder) · [@truefreedomsovereignty](https://www.tiktok.com/@truefreedomsovereignty) · [All Links](https://linktr.ee/truefreedomsovereignty)*
