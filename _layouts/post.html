@@ -1,0 +1,30 @@
+---
+layout: default
+---
+<article>
+  <div class="page-header">
+    <div class="post-date">{{ page.date | date: "%B %-d, %Y" }} &nbsp;·&nbsp; Speaking Truth</div>
+    <h1>{{ page.title }}</h1>
+    {% if page.tags.size > 0 %}
+    <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:16px;">
+      {% for tag in page.tags %}
+      <span style="font-family:'Oswald',sans-serif;font-size:0.7rem;letter-spacing:0.15em;text-transform:uppercase;background:#141410;border:1px solid #252520;color:#6b6860;padding:4px 12px;">{{ tag }}</span>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </div>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+  <div class="cta-block">
+    <p>Follow the movement. Daily truth. No filter.</p>
+    <a href="{{ site.tiktok }}" target="_blank">Watch on TikTok @truefreedomsovereignty</a>
+  </div>
+
+  <div style="border-top:1px solid #252520;padding-top:24px;margin-top:48px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px;">
+    <a href="{{ site.url }}{{ site.baseurl }}/" style="font-family:'Oswald',sans-serif;font-size:0.8rem;letter-spacing:0.1em;text-transform:uppercase;color:#6b6860;">← All Posts</a>
+    <a href="{{ site.linktree }}" target="_blank" style="font-family:'Oswald',sans-serif;font-size:0.8rem;letter-spacing:0.1em;text-transform:uppercase;color:#c8973a;">All Resources →</a>
+  </div>
+</article>

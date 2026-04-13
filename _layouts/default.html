@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} | True Freedom Sovereignty</title>
+  <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | truncate: 160 }}">
+  <link rel="alternate" type="application/rss+xml" title="True Freedom Sovereignty" href="{{ site.url }}{{ site.baseurl }}/feed.xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Merriweather:wght@300;400;700&family=Bebas+Neue&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --black:   #080806;
+      --dark:    #0f0f0b;
+      --card:    #141410;
+      --border:  #252520;
+      --text:    #d4cfc0;
+      --muted:   #6b6860;
+      --gold:    #c8973a;
+      --red:     #b02020;
+      --white:   #f0ebe0;
+      --rust:    #8b3a1a;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Merriweather', Georgia, serif;
+      background: var(--black);
+      color: var(--text);
+      line-height: 1.8;
+      font-size: 16px;
+    }
+
+    /* Top bar */
+    .top-bar {
+      background: var(--red);
+      padding: 8px 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      font-family: 'Oswald', sans-serif;
+      font-size: 0.75rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--white);
+    }
+    .top-bar .pipe { opacity: 0.4; }
+
+    /* Header */
+    header {
+      background: var(--dark);
+      border-bottom: 2px solid var(--gold);
+      padding: 24px 40px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .logo-wrap { display: flex; flex-direction: column; gap: 2px; }
+    .logo-main {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 2rem;
+      letter-spacing: 0.12em;
+      color: var(--white);
+      line-height: 1;
+      text-decoration: none;
+    }
+    .logo-main span { color: var(--gold); }
+    .logo-sub {
+      font-family: 'Oswald', sans-serif;
+      font-size: 0.6rem;
+      letter-spacing: 0.35em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+    nav { display: flex; align-items: center; gap: 4px; }
+    nav a {
+      font-family: 'Oswald', sans-serif;
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 0.8rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      padding: 8px 16px;
+      border: 1px solid transparent;
+      transition: all 0.2s;
+    }
+    nav a:hover { color: var(--white); border-color: var(--border); }
+    nav .cta {
+      color: var(--black);
+      background: var(--gold);
+      border-color: var(--gold);
+      font-weight: 600;
+    }
+    nav .cta:hover { background: #d4a340; }
+
+    /* Hero divider */
+    .divider {
+      height: 3px;
+      background: linear-gradient(90deg, var(--rust), var(--gold), var(--rust));
+    }
+
+    /* Main */
+    main { max-width: 780px; margin: 0 auto; padding: 60px 40px 100px; }
+
+    /* Post meta bar */
+    .meta-bar {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-left: 4px solid var(--gold);
+      padding: 12px 20px;
+      margin-bottom: 48px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      font-family: 'Oswald', sans-serif;
+      font-size: 0.75rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+    .meta-bar .live-dot {
+      width: 8px; height: 8px;
+      border-radius: 50%;
+      background: var(--gold);
+      animation: pulse 2s infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.3; }
+    }
+
+    /* Typography */
+    h1 {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 3rem;
+      letter-spacing: 0.08em;
+      color: var(--white);
+      line-height: 1.1;
+      margin-bottom: 24px;
+    }
+    h2 {
+      font-family: 'Oswald', sans-serif;
+      font-size: 1.4rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin: 40px 0 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--border);
+    }
+    h3 {
+      font-family: 'Oswald', sans-serif;
+      font-size: 1.1rem;
+      color: var(--white);
+      margin: 28px 0 12px;
+    }
+    p { color: var(--text); margin-bottom: 1.5rem; font-weight: 300; }
+    a { color: var(--gold); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    strong { color: var(--white); font-weight: 700; }
+    em { color: #bbb; }
+
+    blockquote {
+      border-left: 4px solid var(--red);
+      padding: 20px 28px;
+      margin: 36px 0;
+      background: var(--card);
+      border-radius: 0;
+      font-style: italic;
+      font-size: 1.1rem;
+      color: var(--white);
+      position: relative;
+    }
+    blockquote::before {
+      content: '"';
+      font-size: 4rem;
+      color: var(--red);
+      opacity: 0.3;
+      position: absolute;
+      top: -10px;
+      left: 12px;
+      font-family: Georgia, serif;
+      line-height: 1;
+    }
+
+    /* Post list */
+    .post-list article {
+      border-bottom: 1px solid var(--border);
+      padding: 32px 0;
+    }
+    .post-list article:first-child { padding-top: 0; }
+    .post-list h3 { font-size: 1.3rem; margin: 0 0 8px; }
+    .post-list h3 a { color: var(--white); font-family: 'Oswald', sans-serif; letter-spacing: 0.05em; text-transform: uppercase; }
+    .post-list h3 a:hover { color: var(--gold); text-decoration: none; }
+    .post-date { font-family: 'Oswald', sans-serif; font-size: 0.7rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--muted); margin-bottom: 12px; }
+    .post-excerpt { color: #888; font-size: 0.9rem; margin-bottom: 16px; }
+    .read-more { font-family: 'Oswald', sans-serif; font-size: 0.8rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gold); }
+
+    /* Page header */
+    .page-header {
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 40px;
+      padding-bottom: 32px;
+    }
+    .page-header .post-date { margin-bottom: 16px; }
+
+    /* CTA block */
+    .cta-block {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-top: 3px solid var(--gold);
+      padding: 32px;
+      margin: 48px 0;
+      text-align: center;
+    }
+    .cta-block p {
+      font-family: 'Oswald', sans-serif;
+      font-size: 1.1rem;
+      letter-spacing: 0.05em;
+      color: var(--white);
+      margin-bottom: 20px;
+    }
+    .cta-block a {
+      display: inline-block;
+      background: var(--gold);
+      color: var(--black);
+      font-family: 'Oswald', sans-serif;
+      font-size: 0.85rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      padding: 12px 28px;
+      font-weight: 700;
+    }
+
+    /* Footer */
+    footer {
+      background: var(--dark);
+      border-top: 2px solid var(--gold);
+      padding: 48px 40px;
+      text-align: center;
+    }
+    .footer-logo {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 1.5rem;
+      letter-spacing: 0.15em;
+      color: var(--white);
+      margin-bottom: 20px;
+    }
+    .footer-logo span { color: var(--gold); }
+    .footer-links { display: flex; justify-content: center; gap: 24px; margin-bottom: 20px; flex-wrap: wrap; }
+    .footer-links a {
+      font-family: 'Oswald', sans-serif;
+      color: var(--muted);
+      font-size: 0.75rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+    .footer-links a:hover { color: var(--gold); }
+    .footer-copy { color: #333; font-size: 0.75rem; font-family: 'Oswald', sans-serif; letter-spacing: 0.05em; }
+    .footer-tagline {
+      font-family: 'Oswald', sans-serif;
+      font-size: 0.7rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--red);
+      margin-bottom: 24px;
+    }
+
+    /* Mobile */
+    @media (max-width: 600px) {
+      header { padding: 20px; flex-direction: column; gap: 16px; text-align: center; }
+      .top-bar { padding: 8px 20px; font-size: 0.65rem; }
+      main { padding: 40px 20px 80px; }
+      h1 { font-size: 2.2rem; }
+      nav a:not(.cta) { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-bar">
+    <span>Speaking Truth</span>
+    <span class="pipe">|</span>
+    <span>No Holds Barred</span>
+    <span class="pipe">|</span>
+    <span>@truefreedomsovereignty</span>
+  </div>
+
+  <header>
+    <div class="logo-wrap">
+      <a href="{{ site.url }}{{ site.baseurl }}/" class="logo-main">True<span>Freedom</span>Sovereignty</a>
+      <span class="logo-sub">Building systems while they sleep</span>
+    </div>
+    <nav>
+      <a href="{{ site.url }}{{ site.baseurl }}/">Truth</a>
+      <a href="{{ site.tiktok }}" target="_blank">TikTok</a>
+      <a href="{{ site.url }}{{ site.baseurl }}/feed.xml">RSS</a>
+      <a href="{{ site.linktree }}" target="_blank" class="cta">All Links</a>
+    </nav>
+  </header>
+
+  <div class="divider"></div>
+
+  <main>
+    {{ content }}
+  </main>
+
+  <footer>
+    <div class="footer-logo">True<span>Freedom</span>Sovereignty</div>
+    <div class="footer-tagline">Speaking Truth · No Holds Barred</div>
+    <div class="footer-links">
+      <a href="{{ site.tiktok }}" target="_blank">TikTok</a>
+      <a href="{{ site.linktree }}" target="_blank">All Links</a>
+      <a href="{{ site.url }}{{ site.baseurl }}/feed.xml">RSS Feed</a>
+      <a href="{{ site.url }}{{ site.baseurl }}/terms.html">Terms</a>
+      <a href="{{ site.url }}{{ site.baseurl }}/privacy.html">Privacy</a>
+    </div>
+    <div class="footer-copy">© {{ site.time | date: '%Y' }} True Freedom Sovereignty · @truefreedomsovereignty · Vancouver, BC</div>
+  </footer>
+
+</body>
+</html>

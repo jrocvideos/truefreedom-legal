@@ -1,0 +1,16 @@
+title: True Freedom Sovereignty
+description: Building sovereignty systems while they sleep. Trumpet. Truth. Freedom.
+url: "https://jrocvideos.github.io"
+baseurl: "/truefreedom-legal"
+author: True Freedom Sovereignty
+email: thewildchildwonder@proton.me
+tiktok: https://www.tiktok.com/@truefreedomsovereignty
+linktree: https://linktr.ee/truefreedomsovereignty
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+feed:
+  posts_limit: 20
+permalink: /:year/:month/:day/:title/

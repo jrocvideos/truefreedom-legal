@@ -1,0 +1,23 @@
+---
+layout: default
+title: Home
+---
+<div style="margin-bottom:48px;">
+  <div style="font-family:'Oswald',sans-serif;font-size:0.7rem;letter-spacing:0.25em;text-transform:uppercase;color:#b02020;margin-bottom:16px;">No Holds Barred</div>
+  <h1 style="font-size:3.5rem;margin-bottom:20px;">Speaking Truth<br>While They Sleep.</h1>
+  <p style="font-size:1.1rem;color:#888;max-width:560px;font-weight:300;">Systems. Sovereignty. Truth. I build AI that runs my content empire on a $6 server — and I document every step. Follow on <a href="https://www.tiktok.com/@truefreedomsovereignty">TikTok</a>.</p>
+</div>
+
+<div style="border-top:1px solid #252520;padding-top:40px;">
+  <div style="font-family:'Oswald',sans-serif;font-size:0.7rem;letter-spacing:0.2em;text-transform:uppercase;color:#6b6860;margin-bottom:32px;">Latest Truth</div>
+  <div class="post-list">
+    {% for post in site.posts limit:10 %}
+    <article>
+      <div class="post-date">{{ post.date | date: "%B %-d, %Y" }}</div>
+      <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+      <p class="post-excerpt">{{ post.excerpt | strip_html | truncate: 180 }}</p>
+      <a href="{{ post.url | prepend: site.baseurl }}" class="read-more">Read More →</a>
+    </article>
+    {% endfor %}
+  </div>
+</div>
