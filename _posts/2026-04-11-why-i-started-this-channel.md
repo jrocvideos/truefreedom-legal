@@ -6,6 +6,8 @@ tags: [freedom, sovereignty, generation-x, truth]
 excerpt: "Freedom is a funny word. My generation grew up hearing it everywhere. Not in hashtags. Not in trending sounds. In stories."
 ---
 
+<img src="/truefreedom-legal/assets/images/why-i-started.png" alt="Why I Started This Channel" style="width:100%;margin-bottom:40px;">
+
 Freedom is a funny word.
 
 My generation grew up hearing it everywhere. Not in hashtags. Not in trending sounds. In stories.
