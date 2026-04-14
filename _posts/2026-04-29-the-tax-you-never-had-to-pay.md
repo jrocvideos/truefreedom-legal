@@ -78,4 +78,4 @@ A look at the systems, history, and compliance structures shaping Canada.
 
 Daily posts. No commentary filter.
 
-[@truefreedomsovereignty](https://www.tiktok.com/@truefreedomsovereignty) · [All Links](https://linktr.ee/truefreedomsovereignty) · [Rumble](https://rumble.com/user/thewildchildwonder)
+[@truefreedomsovereignty](https://www.tiktok.com/@truefreedomsovereignty) · [All Links](https://linktr.ee/thewildchildwonder) · [Rumble](https://rumble.com/user/thewildchildwonder)

@@ -64,4 +64,4 @@ The book that documents what most Canadians sense but haven't yet named.
 
 Daily posts. No commentary filter.
 
-[@truefreedomsovereignty](https://www.tiktok.com/@truefreedomsovereignty) · [All Links](https://linktr.ee/truefreedomsovereignty) · [Rumble](https://rumble.com/user/thewildchildwonder)
+[@truefreedomsovereignty](https://www.tiktok.com/@truefreedomsovereignty) · [All Links](https://linktr.ee/thewildchildwonder) · [Rumble](https://rumble.com/user/thewildchildwonder)
