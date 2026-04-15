@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "The Tax You Never Had to Pay"
+title: "Your Taxes Fund Gen*cid* "
 date: 2026-04-29 07:00:00 -0700
-tags: [sovereignty, taxes, freedom, canada, constitution, truth]
+tags: [sovereignty, freedom, taxation, awareness, awakening, financialcontrol, protest, breakthesystem, globalmovement, truthseeker, liberty, decentralization, corruption, powerstructure, reclaimpower, economicfreedom, systemawakening, freethinking, resistance, unity]
 excerpt: "For over 100 years, governments have collected income tax based on fear — not law. And it's not just an American problem."
 ---
 
@@ -50,9 +50,9 @@ It was designed to be obeyed.
 
 It's whether you've ever actually verified that you're legally required to — or whether you've simply assumed it because everyone around you has done the same.
 
-Sovereignty begins with asking questions the system hopes you never think to ask.
+Remember this, sovereignty begins with asking questions the system hopes you never think to ask.
 
-> Freedom doesn't disappear overnight. It fades when people stop asking who gave the government the authority it claims to have.
+> Freedom doesn't disappear overnight. It only fades when people stop asking who gave the government the authority it claims to have. So stop being a sheep!
 
 ---
 
